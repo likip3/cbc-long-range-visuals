@@ -1,0 +1,14 @@
+{
+  "vertex": "cbc_long_range_visuals:far_visual",
+  "fragment": "cbc_long_range_visuals:far_visual",
+  "samplers": [{"name":"Sampler0"},{"name":"LodDepth"},{"name":"LodStencil"},{"name":"Sampler2"}],
+  "attributes": ["Position","UV0","Color","UV2"],
+  "uniforms": [
+    {"name":"ModelViewMat","type":"matrix4x4","count":16,"values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]},
+    {"name":"ProjMat","type":"matrix4x4","count":16,"values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]},
+    {"name":"ClipToLod","type":"matrix4x4","count":16,"values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]},
+    {"name":"LodEnabled","type":"int","count":1,"values":[0]},
+    {"name":"LodReverseZ","type":"int","count":1,"values":[0]},
+    {"name":"LodZeroOne","type":"int","count":1,"values":[0]}
+  ]
+}

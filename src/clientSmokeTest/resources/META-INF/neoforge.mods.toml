@@ -1,0 +1,15 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "cbc_visuals_smoke_test"
+version = "1.0"
+displayName = "CBC Visuals Graphical Regression Runner"
+
+[[dependencies.cbc_visuals_smoke_test]]
+modId = "cbc_long_range_visuals"
+type = "required"
+versionRange = "[0.1.2-dev,)"
+ordering = "AFTER"
+side = "CLIENT"

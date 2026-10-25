@@ -1,0 +1,19 @@
+# Build products and project-local tools
+.gradle/
+.gradle-user-home/
+.tools/
+build/
+run/
+run-server/
+out/
+*.log
+__pycache__/
+
+# IDE machine-local state
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+

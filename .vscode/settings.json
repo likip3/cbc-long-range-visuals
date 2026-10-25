@@ -1,0 +1,17 @@
+{
+    "java.import.gradle.java.home": "${workspaceFolder}/.tools/java21",
+    "java.import.gradle.user.home": "${workspaceFolder}/.gradle-user-home",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "${workspaceFolder}/.tools/java21",
+            "default": true
+        }
+    ],
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/.gradle-user-home": true,
+        "**/.tools": true
+    }
+}
+
